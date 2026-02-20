@@ -29,7 +29,7 @@ export default function App() {
             minWidth: "220px",
             maxWidth: "320px",
           },
-          // toast موفق (افزودن)
+          // toast موفق
           success: {
             style: {
               background: "#1a2820",
