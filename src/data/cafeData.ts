@@ -1,4 +1,15 @@
 import type { CafeInfo, MenuItem } from "../types";
+import heroImage from "../assets/images/heroImage.jpg";
+import coldbrew from "../assets/images/coldbrew.jpg";
+import IcedLatte from "../assets/images/IcedLatte.jpg";
+import Frappuccino from "../assets/images/Frappuccino.jpg";
+import Espresso from "../assets/images/Espresso.jpg";
+import Cappuccino from "../assets/images/Cappuccino.jpg";
+import Latte from "../assets/images/Latte.jpg";
+import Croissant from "../assets/images/Croissant.jpg";
+import Cheesecake from "../assets/images/Cheesecake.jpg";
+import Brownie from "../assets/images/Brownie.jpg";
+import ClubSandwich from "../assets/images/ClubSandwich.jpg";
 
 export const CAFE_INFO: CafeInfo = {
   name: "کافه قهوه‌دار",
@@ -9,13 +20,12 @@ export const CAFE_INFO: CafeInfo = {
   phone: "۰۶۶-۱۲۳۴۵۶۷۸",
   socials: {
     whatsapp: "https://wa.me/989121234567",
-    instagram: "https://instagram.com/cafename",
-    telegram: "https://t.me/cafename",
+    instagram: "https://instagram.com/amirtahanemati",
+    telegram: "https://t.me/amiirtahanemati",
   },
   mapEmbed:
     "https://www.openstreetmap.org/export/embed.html?bbox=48.34%2C33.47%2C48.40%2C33.52&layer=mapnik&marker=33.4878%2C48.3558",
-  heroImage:
-    "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+  heroImage: heroImage,
   hiringBanner: true,
 };
 
@@ -34,8 +44,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "کلد برو",
     description: "قهوه سرد دم با عصاره‌گیری طولانی در آب سرد",
     price: 170,
-    image:
-      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=200&q=80",
+    image: coldbrew,
     badge: "پرفروش",
     addons: ["شیر بادام +۲۰", "شیر نارگیل +۲۰", "اسپرسو اضافه +۱۵"],
   },
@@ -45,8 +54,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "آیس لته",
     description: "اسپرسو دوبل با شیر سرد و یخ فراوان",
     price: 155,
-    image:
-      "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=200&q=80",
+    image: IcedLatte,
     badge: null,
     addons: ["وانیل +۱۰", "کارامل +۱۰", "شیر بادام +۲۰"],
   },
@@ -56,8 +64,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "فراپوچینو",
     description: "ترکیب قهوه، شیر، یخ و خامه فرم‌گرفته",
     price: 190,
-    image:
-      "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&q=80",
+    image: Frappuccino,
     badge: "جدید",
     addons: ["شکلات +۱۵", "کارامل +۱۰"],
   },
@@ -67,8 +74,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "اسپرسو",
     description: "اسپرسو خالص با دانه‌های تازه‌برشته",
     price: 80,
-    image:
-      "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=200&q=80",
+    image: Espresso,
     badge: null,
     addons: ["شات اضافه +۲۰"],
   },
@@ -78,8 +84,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "کاپوچینو",
     description: "اسپرسو با فوم شیر کرمی و پودر کاکائو",
     price: 130,
-    image:
-      "https://images.unsplash.com/photo-1534778101976-62847782c213?w=200&q=80",
+    image: Cappuccino,
     badge: "پرطرفدار",
     addons: ["دارچین +۵", "شکلات +۱۰", "وانیل +۱۰"],
   },
@@ -89,8 +94,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "لته",
     description: "اسپرسو با شیر بخارپز و لایه‌ای از فوم",
     price: 125,
-    image:
-      "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=200&q=80",
+    image: Latte,
     badge: null,
     addons: ["وانیل +۱۰", "کارامل +۱۰", "هازلنات +۱۰"],
   },
@@ -100,8 +104,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "کروسان",
     description: "خمیر کره‌ای ورقه‌ای؛ سبک، لایه لایه و خوش عطر",
     price: 170,
-    image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=200&q=80",
+    image: Croissant,
     badge: null,
     addons: ["مربا +۱۵", "کره +۱۰"],
   },
@@ -111,8 +114,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "چیزکیک",
     description: "چیزکیک نیویورکی با سس توت فرنگی تازه",
     price: 210,
-    image:
-      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=200&q=80",
+    image: Cheesecake,
     badge: "ویژه",
     addons: ["سس بلوبری +۲۰", "سس شکلات +۱۵"],
   },
@@ -122,8 +124,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "براونی",
     description: "براونی شکلاتی گرم با گردوی تازه",
     price: 185,
-    image:
-      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=200&q=80",
+    image: Brownie,
     badge: null,
     addons: ["بستنی وانیل +۳۰", "خامه +۱۵"],
   },
@@ -133,8 +134,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "ساندویچ کلاب",
     description: "نان تست، مرغ کبابی، پنیر، گوجه و سس مخصوص",
     price: 290,
-    image:
-      "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=200&q=80",
+    image: ClubSandwich,
     badge: "پرفروش",
     addons: ["سیب‌زمینی +۵۰", "سالاد +۳۰"],
   },
