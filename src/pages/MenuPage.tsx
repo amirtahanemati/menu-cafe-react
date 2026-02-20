@@ -9,6 +9,7 @@ import { MenuItemCard } from "../components/MenuItemCard";
 import { AboutSection } from "../components/AboutSection";
 import { CartDrawer } from "../components/CartDrawer";
 import { FloatingCartButton } from "../components/FloatingCartButton";
+import { DeveloperFooter } from "../components/DeveloperFooter";
 import { showToast } from "../utils/Toasthelpers";
 import type { CartItem, MenuItem } from "../types";
 
@@ -79,7 +80,7 @@ export default function MenuPage() {
       dir="rtl"
       style={{ fontFamily: "'Dana', sans-serif" }}
     >
-      <div className="max-w-md mx-auto relative pb-28">
+      <div className="max-w-md mx-auto relative">
         {/* Hero تصویر سرصفحه */}
         <div className="relative h-56 overflow-hidden rounded-b-2xl">
           <img
@@ -150,6 +151,8 @@ export default function MenuPage() {
 
         {/* بخش درباره ما - پایین منو */}
         <AboutSection info={CAFE_INFO} />
+
+        <DeveloperFooter />
       </div>
 
       {/* دکمه شناور سبد خرید */}
