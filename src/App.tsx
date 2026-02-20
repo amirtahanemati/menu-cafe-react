@@ -8,11 +8,10 @@ export default function App() {
         position="top-left"
         gutter={8}
         containerStyle={{
-          top: 16, // بالاتر از دکمه سبد خرید
+          top: 16,
         }}
         toastOptions={{
           duration: 2200,
-          // استایل پایه برای همه toast ها
           style: {
             fontFamily: "'Dana', sans-serif",
             direction: "rtl",
