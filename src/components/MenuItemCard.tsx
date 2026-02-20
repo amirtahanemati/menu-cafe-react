@@ -81,7 +81,7 @@ export function MenuItemCard({ item, onAddToCart }: MenuItemCardProps) {
                 transition={{ duration: 0.2 }}
                 className="overflow-hidden"
               >
-                <div className="px-4 pt-3 pb-3 pt-1 flex flex-wrap gap-2 justify-start">
+                <div className="px-4 pt-3 pb-3 flex flex-wrap gap-2 justify-start">
                   {item.addons.map((a) => (
                     <span
                       key={a}
