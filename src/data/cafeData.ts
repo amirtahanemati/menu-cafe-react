@@ -1,6 +1,6 @@
 import type { CafeInfo, MenuItem } from "../types";
 import heroImage from "../assets/images/heroImage.jpg";
-import coldbrew from "../assets/images/coldbrew.jpg";
+import ColdBrew from "../assets/images/ColdBrew.jpg";
 import IcedLatte from "../assets/images/IcedLatte.jpg";
 import Frappuccino from "../assets/images/Frappuccino.jpg";
 import Espresso from "../assets/images/Espresso.jpg";
@@ -44,7 +44,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "کلد برو",
     description: "قهوه سرد دم با عصاره‌گیری طولانی در آب سرد",
     price: 170,
-    image: coldbrew,
+    image: ColdBrew,
     badge: "پرفروش",
     addons: ["شیر بادام +۲۰", "شیر نارگیل +۲۰", "اسپرسو اضافه +۱۵"],
   },
